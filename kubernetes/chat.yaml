@@ -14,7 +14,7 @@ spec:
       containers:
       - name: chat
         imagePullPolicy: IfNotPresent
-        image: mintage/chatapi:latest
+        image: mintage/chatapi:chat
         ports:
           - containerPort: 3000
             name: http-web-svc
