@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: chat
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         image: mintage/chatapi:chat
         ports:
           - containerPort: 3000

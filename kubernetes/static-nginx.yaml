@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         image: mintage/devopsfrontend:latest
         ports:
           - containerPort: 80
