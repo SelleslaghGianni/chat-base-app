@@ -4,4 +4,4 @@ COPY ./nginx-kubernetes.conf /etc/nginx/nginx.conf
 COPY ./www/ /var/www/static/
 
 
-EXPOSE 8080
+EXPOSE 80
