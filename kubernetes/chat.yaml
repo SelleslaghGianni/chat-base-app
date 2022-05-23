@@ -14,7 +14,7 @@ spec:
       containers:
       - name: chat
         imagePullPolicy: Always
-        image: mintage/chatapi:chat
+        image: mintage/chatapi:latest
         ports:
           - containerPort: 3000
             name: http-web-svc

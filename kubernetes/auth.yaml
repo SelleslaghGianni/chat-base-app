@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: Always
-        image: mintage/authapi:chat
+        image: mintage/authapi:latest
         ports:
           - containerPort: 3000
             name: http-web-svc
