@@ -1,7 +1,7 @@
 FROM node
-WORKDIR /home/node/app
-COPY *.js /home/node/app/
-COPY package*.json /home/node/app/
+WORKDIR /home/node/authAPI
+COPY *.js /home/node/authAPI
+COPY package*.json /home/node/authAPI/
 RUN ["npm", "install"]
 ENV NODE_ENV=production
 CMD ["node", "index.js"]
